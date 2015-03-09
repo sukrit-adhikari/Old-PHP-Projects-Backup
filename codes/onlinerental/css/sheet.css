@@ -1,0 +1,202 @@
+/* CSS Document for minor project(ONLINE_RENTAL.COM)*/
+
+body{ font-family:Arial, Helvetica, sans-serif;margin:0px auto auto auto; background:#000000; font-size:12px;}
+input,select,option,textarea{ font-size:11px; color:#666666;}
+.wrapper{background-color:#FFFFFF;; width:900px; height:960px; margin:0px auto auto auto;color:#303030}
+.wrapper_upload{background-color:#FFFFFF; width:900px; height:1420px; margin:0 auto auto auto;color:#303030; }
+
+
+.header{ width:900px; height:230px; background:url(../images/header.gif); background-repeat:no-repeat;}
+
+/*-----login-----*/
+
+.login_box{
+
+width:260px;
+background:url(../images/login_box_bg.gif);
+background-position:top;
+background-repeat:no-repeat;
+margin-top:0px; 
+margin-left:640px;
+padding-bottom:17px;
+padding-left:4px; 
+line-height:21px;
+float:left;  
+font-size:11px; 
+ 
+}
+
+.error{ color:#CC0000; background:url(../images/wrong.gif); background-position:4px; background-repeat:no-repeat; padding:8px 0px 8px 30px; width:600px; background-color:#eef3f6; margin-top:2PX;border:1px solid #e8ebec;}
+
+.login_error_msg{ font-size:11px; color:#CC0000;}
+.login_title{ background: url(../images/login-box_title_bg.gif); width:256px; padding-left:0px; margin-top:-11px; }
+.nav_title{ list-style-image:url(../images/left_nav_title_bullet.gif); font-weight:bold; color:#FFFFFF; font-size:13px;}
+.login_content{ margin-left:15px; margin-top:-4px; font-size:11px;}
+.username_text{ display:inline; margin-left:9px; font-size:11px}
+.password{ margin-top:2px;}
+.password_text{ display:inline; margin-left:8px;}
+.keep_me_logged_in{ margin-left:60px; margin-top:2px; color:#303032}
+.login_botton{ margin-left:65px;}
+.create_new_account{ margin-left:15px; color:#303032;}
+.create_now_link{color:#0240a5}
+
+
+/*------Main menu navigation-------*/
+
+.main_menu_tab{width:900px;
+ color:#FFFFFF; 
+ background-image:url(../images/menu_bg.gif); 
+ line-height:36px;
+  margin-top:-16px; }
+
+
+.main_navigation{list-style:none; margin:0px; display:inline; font-size:12px; font-weight:normal;padding:10px;}
+
+.main_navigation a{ text-decoration:none;color:#ffffff; padding:10px 10px 10px 4px;}
+
+.main_navigation a:hover{color:#000; background-image:url(../images/menu_bg_hover.gif); padding:11px 10px 10px 4px;font-size:12px;}
+
+
+/*-----------Search-----------*/
+
+.search{font-size:13px; margin-left:30px; margin-top:30px; color:#303030;}
+.search_item{display:inline; margin-left:10px;}
+.style_text{background:#FFFFFF; border:1px solid #2c85f2; font-size:13px; height:20px; padding-left:5px; color:#303030;}
+.search_botton{display:inline;margin-left:14px; position:absolute;top:290px;}
+.advance_search_link{ color:#303030; float:right; margin-top:3px; margin-left:10px; font-size:12px;}
+.advance_search_link a:hover{color:#fe8606; text-decoration:none;}
+
+/*-------------left-content-----------------*/
+.left_container{ height:429px; width:154px; float:left; margin:40px 0 0 0;}
+
+.left_nav_title{ color:#FFFFFF; background:url(../images/left_nav_title-bg.gif); background-repeat: no-repeat; padding:5px 5px 5px 25px; margin-left:0px; font-weight:normal; font-size:11px}
+
+.left_navigation_items ul{ line-height:22px; margin:-3px 0 0 0; color:#656a6d; background:#eef3f6; padding-top:1px; padding-bottom:1px; font-size:11px; padding-left:38px;}
+
+.left_navigation_items ul li{ list-style-image: url(../images/square_liist_hover.gif);} 
+
+.left_navigation_items a:link{ color:#656a6d; text-decoration:none;}
+
+.left_navigation_items a:hover{ color:#000000; text-decoration:underline;}
+
+.like_page{ list-style-image:none;}
+/*-------------right-content-----------------*/
+
+
+.right_container{ height:474px; width:716px; margin:40px 0 0 28px; float:left;}
+
+.thumbnails_title{margin:0px; color:#ffffff; font-size:11px; padding:3px 4px 5px 4px; text-transform:uppercase; background:url(../images/description_title_bg.gif); background-repeat:repeat-x; width:700px;}
+
+
+.thumbnails_container{width:716px; height:auto; float:left;font-size:12px; background-color:#FFffff; margin:0px;}
+
+.thumbnails_items{background:#eef3f6; width:121px; height:auto; padding-bottom:4px;font-size:13px;float:left; display:inline; margin-right:11px; margin-top:0px;}
+
+.thumbnails{border:3px solid #e6e7e9;}
+.description_title{margin-left:6px; color:#ff8607}
+
+.description_details{margin-left:2px; color:#666a6b;font-size:11px;}
+.details_gmaps a:link{color:#0094bc; margin-left:-34px;font-size:11px;}
+.details_gmaps a:hover{ color:#fe8606;}
+
+/* DETAILS KO LAGI */
+
+.right_container{ height:474px; width:716px; margin:40px 0 0 28px; float:left;}
+
+
+.photo_view_large{width:400px; height:220px; float:left;font-size:12px;background:#eef3f6; margin-bottom:0; color:#FFFFFF;}
+.detail_wrapper{ margin:0px;}
+
+.detail_features{ width:280px;height:220px; float:left;font-size:12px;background:#eef3f6; color:#FFFFFF; margin:0 0 0 25px;  }
+
+.detail_description_title{margin:0px; color:#ffffff; font-size:11px; padding:3px 4px 5px 4px; text-transform:uppercase; background:url(../images/description_title_bg.gif); background-repeat:repeat-x;}
+
+.detail_description_info{margin-left:4px; margin-top:0px; color:#666a6b;font-size:11px; }
+
+.comment_box{ overflow:auto; height:240px; width:400px;  background:#eef3f6; background:#eef3f6; font:Arial, Helvetica, sans-serif; color:#666a6b; font-size:11px; }
+
+
+
+/*-----------BID KO LAGI-------------*/
+
+ .bid_title{color:#ff8607}
+ 
+ .bidding_box{ overflow:auto; height:240px; width:400px;  background:#eef3f6;  display:none; background:#eef3f6; font:Arial, Helvetica, sans-serif; color:#666a6b; font-size:11px;}
+ 
+ 
+/*------------SIGN_UP---------------------------*/
+
+
+
+.bottons{border:1px solid #cccdce; background-image:url(../images/description_title_bg.gif); padding:1px 2px 1px 2px; font-size:12px; color:#FFFFFF;}
+.empty_fields{color:#0784c1;font-size:11px;}
+
+
+.field_set_bg{background:#EEF3F6;width:680px; border:1px solid #e8ebec;}
+
+.signup_table{ background:#EEF3F6;color:#64696C; font-size:11px;}
+
+.signup_title{border:2px solid #cccdce; background-image:url(../images/menu_bg.gif); padding:1px 8px 1px 8px; font-size:15px; color:#FFFFFF;}
+.bidding_title{border:1px solid #cccdce; background-image:url(../images/menu_bg.gif); padding:1px 4px 1px 4px; font-size:12px; color:#FFFFFF;}
+
+.error_message{color:#CC0000; font-size:10px;}
+
+.signup_confirmation{ color:#738F06; background:url(../images/signup_sucess_icon_03.gif); background-position:4px; background-repeat:no-repeat; padding:8px 0px 8px 30px; width:670px; background-color:#eef3f6; margin-top:2PX;border:1px solid #e8ebec;}
+
+
+/*-------------footer-content-----------------*/
+.footer_container{height:58px; width:900px; margin:72px 0 0 0px; background-color:#00FFff; color:#FFFFFF; float:left; background-image:url(../images/footer_bg.gif); background-repeat: repeat-x;font-size:11px;}
+
+ul.footer
+	{
+	text-align:center;
+	margin-top:8px;
+    	margin-left:233px;
+		padding-left:0px;
+    	list-style-type: none;
+    	float: left;
+	width:767px;
+	
+}
+
+
+ul.footer li
+{
+    display: inline;
+	
+}
+
+ul.footer a
+
+{	
+	
+	font-weight:normal;
+    	display:inline;
+    	float:left;
+    	padding:0 19px;
+   	 text-decoration: none;
+   	 color: #ffffff;
+   	   	background-repeat:repeat-x; 
+   	border-right:1px solid #bfc3c4;
+
+	
+}
+
+ul.footer a:hover
+{
+    color:#000000;
+text-decoration:underline;
+	
+	}
+	
+.copyright{ text-align:center;}
+
+
+
+
+
+
+.footer_container_upload{ position:relative;height:58px; width:900px; margin:350px 0 0 0px; background-color:#00FFff; color:#FFFFFF; float:left; background-image:url(../images/footer_bg.gif); background-repeat: repeat-x;font-size:11px;}
+
+
+

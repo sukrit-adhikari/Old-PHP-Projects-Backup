@@ -1,0 +1,12 @@
+<?php
+function rotate_right($password){
+	$password='pass123';
+
+	$pass_length=strlen($password);
+
+	$rotate_mag=3;
+
+	return $password=substr($password,$rotate_mag).substr($password,0,$rotate_mag);
+
+}
+?>

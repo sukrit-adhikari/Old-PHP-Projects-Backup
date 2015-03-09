@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="css/forum.css" media="screen" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NPF Confirm Your Info</title>
+
+<script type="text/javascript" >
+
+function showhidepassword(){
+	
+		
+
+		if(document.getElementById('showhidebutton').value=="Show"){
+			document.getElementById('password').innerHTML="password";
+			document.getElementById('showhidebutton').value="Hide";
+			
+		}
+		else if(document.getElementById('showhidebutton').value=="Hide"){
+			document.getElementById('password').innerHTML="******";
+			document.getElementById('showhidebutton').value="Show";
+		}
+
+
+
+}
+
+function confirm_userinfo(){
+	window.location.replace('signup.php?confirm=true');
+}
+
+
+</script>
+
+
+
+
+
+</head>
+<body>
+
+<div align="center" style="padding:100px;">
+<?php
+$firstname="sukrit";
+$lastname="adhikari";
+$email="sukrit03@hotmail.com";
+$username="freeze3108";
+
+?>
+<font class="signup_userinfo_confirm">Name:
+<?php
+echo ucfirst($firstname)." ".ucfirst($lastname)."<br>";
+?>
+</font>
+<br />
+<font class="signup_userinfo_confirm">Email:
+<?php
+echo $email."<br>";
+?>
+</font>
+<br />
+<font class="signup_userinfo_confirm">Username:
+<?php
+echo $username."<br>";
+?>
+</font>
+<br />
+<font class="signup_userinfo_confirm">Password<br>
+<?php
+echo "<span id=\"password\">******</span>";
+?>
+<br />
+<input type="button" id="showhidebutton" value="Show" onclick="showhidepassword();" />
+<br />
+</font>
+<br />
+
+<input type="button" value="CONFIRM My Info" />
+
+</div>
+</body>
+</html>

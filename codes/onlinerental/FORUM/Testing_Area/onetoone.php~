@@ -1,0 +1,14 @@
+<?php
+
+		$code_1=rand(129,986);
+
+		$code_2=rand(206,930);
+
+		$dateandtime=$code_1.$dateandtime.$code_2;
+	
+		for($i=0;$i<=strlen($rotated_password)-1;$i++){	
+
+		$result =ord($rotated_password[$i])*ord($dateandtime[$i]);
+
+?>
+

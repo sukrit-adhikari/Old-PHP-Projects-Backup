@@ -1,0 +1,38 @@
+<?php
+session_start();
+
+
+
+if( isset($_COOKIE['chatloginusername']) ){
+	
+	
+
+		include 'check_cookie_db.php';		
+				
+		$_SESSION['login'] = 'yes';
+
+		$_SESSION['username'] = $_COOKIE['chatloginusername'];
+
+	
+	
+}
+
+else{
+
+		if(isset($_SESSION['login'])) {
+
+			if( $_SESSION['login']!='yes' ) {
+				header("Location: login_form.php");
+				exit();
+			}
+		}//END OF IF
+
+		else {
+			header("Location: login_form.php");
+			exit();
+	
+}//END OF ELSE
+
+}
+
+?>

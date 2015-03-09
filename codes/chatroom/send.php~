@@ -1,0 +1,22 @@
+<?php
+
+include 'mysql_config.php';
+
+$message=$_GET['message'];
+$sender=$_SESSION['username'];
+$dat=date("Y-m-d H:i:s");
+
+if(mysql_query("INSERT INTO chats (`sender`,`message`,`dat`) VALUES('$sender','$message','$dat')")){
+	
+	echo $sender." ".$dat."<br>";
+	echo $message;
+	
+	}
+else {
+
+	echo "\"".$message."\""." was not send :( Sorry !";	
+	
+	}
+
+
+?>

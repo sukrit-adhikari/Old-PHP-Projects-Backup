@@ -1,0 +1,15 @@
+<?php
+//code_1 and code_2 and dateandtime variables already retrieved and above this LINE
+
+//$result_onetoone is also retrieved BUT in array form after explode(" ",$password)
+
+		$dateandtime=$code_1.$dateandtime.$code_2;
+	
+		$real_password_unrotated='';		
+		
+		for($i=0;$i<=strlen($rotated_password)-1;$i++){	
+			
+			$result_onetoone_divide =$result_onetoone*[$i]/ord($dateandtime[$i]); //ASCII OF PASSWORD
+			$real_password_unrotated.=chr($result_onetoone_divide);//Unrotate_real_password
+		}
+?>

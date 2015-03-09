@@ -1,0 +1,41 @@
+
+<script type="text/javascript">
+
+
+<!--
+
+4:1
+4:14
+4:00
+1:00
+
+
+-->
+
+function updateLeftTime(){
+
+	mins = getElementById('mins').innerHTML;
+	hrs = getElementById('hrs').innerHTML;
+	
+	if(mins>0 && hrs>0 ){
+	getElementById('mins').innerHTML=getElementById('mins').innerHTML - 1;
+	}
+	
+	else if(mins ==0 && hrs >0 ){
+	getElementById('hrs').innerHTML=getElementById('hrs').innerHTML - 1;
+	getElementById('mins').innerHTML="60";
+	}
+	
+	else if(hrs==0 && mins>0){
+	getElementById('mins').innerHTML=getElementById('mins').innerHTML - 1;
+	}
+	else if(hrs==0  && mins==0){
+	//reload;;;
+	}
+
+}
+
+
+setTimeOut("updateLeftTime()", 1000);
+
+</script>
